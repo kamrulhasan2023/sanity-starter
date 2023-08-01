@@ -1,4 +1,4 @@
-// schemas/pet.js
+// schemas/pet.ts
 export default {
   name: 'pet',
   type: 'document',

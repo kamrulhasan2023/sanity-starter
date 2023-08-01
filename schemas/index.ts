@@ -1,4 +1,5 @@
 // schemas/index.js
-import pet from './pet'
+import pet from './pet';
+import person from "./person";
 
-export const schemaTypes = [pet]
+export const schemaTypes = [pet, person]
