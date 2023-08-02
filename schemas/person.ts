@@ -26,7 +26,10 @@ export default {
                 {
                   title: 'Pet',
                   type: 'reference',
-                  to: {type: 'pet'}
+                  to: [{type: 'pet'}],
+                  options: {
+                    disableNew: true,
+                  }
                 }
               ],
             }
