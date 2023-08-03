@@ -13,11 +13,13 @@ export default {
         defineField({
             name : "subcategories",
             type: "array",
+            
             of : [
                 defineField({
                     name: 'subcategory',
                     type: 'string',
                     title: 'Sub Category',
+                    validation: Rule => Rule.required()
                 })
             ]
         })
